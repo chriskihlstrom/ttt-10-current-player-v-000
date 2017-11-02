@@ -8,7 +8,7 @@ def turn_count(board)
   end
   return counter
 end
-def current_player(counter)
+def current_player(board)
     if counter % 2.even?
       value = "X"
     else value = "O"
