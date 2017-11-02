@@ -5,8 +5,8 @@ def turn_count(board)
     counter += 1
     else counter = counter
     end
-    puts counter
   end
+  puts counter
 end
 def current_player(counter)
     if counter % 2.even?
