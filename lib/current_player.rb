@@ -13,5 +13,5 @@ def current_player(board)
       value = "X"
     else value = "O"
     end
-  return value  
+  return value
 end
