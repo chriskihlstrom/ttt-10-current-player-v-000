@@ -11,7 +11,8 @@ end
 def current_player(board)
     if (turn_count(board) % 2).even?
       value = "X"
-    else value = "O"
+    else 
+      value = "O"
     end
   return value
 end
