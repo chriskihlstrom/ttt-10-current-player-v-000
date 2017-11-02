@@ -13,4 +13,5 @@ def current_player(counter)
       value = "X"
     else value = "O"
     end
+  return value  
 end
